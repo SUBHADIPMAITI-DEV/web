@@ -12,7 +12,11 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-
+<div id="audio-container" style="display: none;">
+        <audio id="background-audio" loop>
+          <source src="assets/audio/mymusic.mp3" type="audio/mpeg">
+        </audio>
+      </div>
 <!-- notification for small viewports and landscape oriented smartphones -->
 <div class="device-notification">
   <a class="device-notification--logo" href="#0">
@@ -272,11 +276,7 @@
     <li>Hire Me</li>
   </ul>
 </div>
-<div id="audio-container" style="display: none;">
-        <audio id="background-audio" loop>
-          <source src="assets/audio/mymusic.mp3" type="audio/mpeg">
-        </audio>
-      </div>
+
 <script>
         var audio = document.getElementById("background-audio");
       
