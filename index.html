@@ -10,6 +10,7 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 <body>
 
@@ -179,7 +180,7 @@
             <div class="hire">
               <h2>You want us to do</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form class="work-request pageclip-form" action="https://send.pageclip.co/BMvkYSTkLUR1ZsImuDsue7jOF5Ods0Ey" method="post">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="app design">
@@ -256,7 +257,10 @@
                     <label for="email">Email</label>
                   </div>
                 </div>
-                <input type="submit" value="Send Request">
+<!--                 <input type="submit" > -->
+                 <button type="submit" class="pageclip-form__submit" value="Send Request">
+                   <span>Send</span>
+                   </button>
               </form>
             </div>
           </li>
@@ -290,6 +294,7 @@
         // Play audio on page load
         window.addEventListener("load", playAudio);
       </script>
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
